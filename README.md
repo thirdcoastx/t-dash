@@ -6,3 +6,9 @@ Shows high level of all projects available then allows you to drill into granula
 
 Requirements: 
 - The integration will require the user to login in order to obtain the information concerning his or her projects
+
+
+NOTE:  This is currently pointed to localhost:8000 API.  You'll need to update the URL's to call taiga.io API or your on-prem API. 
+
+To Do:
+  -- Make API URL a Parameter from Ansible/Docker
