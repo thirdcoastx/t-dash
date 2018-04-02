@@ -1,14 +1,8 @@
-# AuroraProject
+# T-DASH
 
-Taiga project-dashboard, suggested by Kaleidos.
+Taiga project-dashboard.  Based on AuroraProject/Boreal.
 
-The purpose of this project is to show in one glance, the overview of all the projects that a person has in the free software of Taiga.
-
-The objectives are:
-- Get acquainted with the data coming from Restful API. 
-- Consume data in pseudo-real time or with periodic updates, without the need to manually refresh the page. 
-- Obtain valuable information of the projects. 
+Shows high level of all projects available then allows you to drill into granular project dashboard by passing the projectSlug from AuroraProject to Boreal.
 
 Requirements: 
-- The integration will require the user to login in order to obtain the information concerning his or her projects.  
-
+- The integration will require the user to login in order to obtain the information concerning his or her projects
