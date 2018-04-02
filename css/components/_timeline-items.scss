@@ -1,0 +1,18 @@
+
+.timeline-item{
+  background-color: aliceblue;
+  border-radius: 1em;
+  padding: 1em;
+}
+.timeline-user-photo{
+  width: 3em;
+  img{
+     width: 100%;
+  }
+}
+.timeline-text{
+  width: 90%;
+}
+.timeline-date{
+  align-self: flex-end;
+}

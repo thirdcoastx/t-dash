@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Level Dashboard</title>
+    <link rel="shortcut icon" href="img/favicon_boreal.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body onload="javascript:getIssuesData();">
+
+    <div class="login-container">
+      <div class="login-text center">
+        <img src="img/logo-boreal_white.png" alt="Boreal logo ">
+        <h2>A monitor for your Taiga issues</h2>
+        <p>Enter your project slug*</p>
+      </div>
+
+      <div class="login-form">
+        <input class="js-input-slug login-slug" type="text" name="" value="" placeholder="Ex. taiga">
+        <button class="js-btn-search login-btn" type="button" name="button">Search</button>
+      </div>
+    </div>
+
+    <main class="data-container hidden">
+      <div class="column1-3">
+        <div class="open-closed-chart">
+          <canvas id="js-openClosedChart"></canvas>
+        </div>
+        <div id="js-openIssuesPerStatus" class="status-table-container">
+
+        </div>
+        <div class="topUserUnassigned-container">
+        </div>
+      </div>
+
+      <div class="column1-3">
+        <div class="loading-screen">
+          <h1>LOADING</h1>
+        </div>
+        <div class="pie-chart">
+          <canvas id="js-priorityChart"></canvas>
+        </div>
+
+        <div class="pie-chart">
+          <canvas id="js-severityChart"></canvas>
+        </div>
+      </div>
+      <div class="timeline">
+      </div>
+
+    </main>
+
+    <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="scripts/chart.js" charset="utf-8"></script>
+  </body>
+</html>

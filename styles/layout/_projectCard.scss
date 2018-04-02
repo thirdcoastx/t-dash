@@ -1,0 +1,193 @@
+
+.row{
+  display: flex;
+  margin-top: 35px;
+}
+
+.flex{
+  display: flex;
+}
+
+.card{
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects_user{
+  background: $card-background-color;
+  border: 1px solid $primary-color;
+  border-radius: 7px;
+  flex-grow: 0;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 98%;
+}
+
+.project-info{
+  display: flex;
+  flex-direction: column;
+  max-height: 170px;
+  margin-bottom: 10px;
+}
+
+.img-nullProject{
+  width: 75px;
+}
+
+.img-project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title{
+  margin: 0;
+  text-align: center;
+  font-weight: 400px;
+}
+
+.project-img{
+  text-align: center;
+}
+
+.truncate-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+}
+
+.truncate-description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description-project{
+  margin-top: 10px;
+}
+
+.like-div,
+.watch-div {
+  width: 100px;
+  align-items: center;
+}
+
+.logolike,
+.logowatch{
+  padding: 2%;
+}
+
+.like-watch{
+  margin-top: 10px;
+}
+
+.modules-div{
+  max-height: 50px;
+}
+
+.img-modules{
+  width: 16px;
+  margin-right: 5px;
+}
+
+.timeline-project{
+  display: flex;
+  flex-direction: row;
+  border-top: 1.5px solid $primary-color;
+  border-bottom: 1.5px solid $primary-color;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  bottom: 40px;
+}
+
+.stories-issues{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.progress-stories,
+.number-progress{
+  line-height: 0.7em;
+  align-items: center;
+}
+
+.number-stories,
+.number-issues{
+  font-size: 1.8em;
+  margin: 9px 5px;
+}
+
+.margin-paragraph{
+  margin:0;
+}
+
+.progress,
+.issues{
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.line-progress{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sprint-div,
+.points-div{
+  display: flex;
+}
+
+.p-user-stories{
+  margin-left: 5px;
+}
+
+.progress-bar{
+  width: 80%;
+  height: 22px;
+}
+
+.percentage-bar{
+  margin-left: 10px;
+  color: $primary-color;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover,
+.project-title:hover{
+  background-color: $hover-a-background-color;
+}
+
+@media (min-width: $max-screen-size-tablet) {
+
+  .card{
+    max-width: 85%;
+  }
+
+  .projects_user{
+    margin-top: 1%;
+    width: 45%;
+  }
+
+}
+
+@media (min-width: $max-screen-size-laptop) {
+
+  .card{
+    max-width: 85%;
+  }
+
+  .projects_user{
+    width: 31%;
+  }
+
+}

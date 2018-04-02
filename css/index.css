@@ -1,0 +1,224 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+h1, h2, p {
+  font-weight: 100;
+  color: white; }
+
+h1 {
+  font-size: 4em;
+  line-height: 0.3em; }
+
+.timeline-text, .topUserUnassigned-container, .status-table-container {
+  font-weight: 100;
+  color: #636060; }
+
+.timeline-date {
+  font-weight: 100;
+  font-size: 0.8em; }
+
+span {
+  font-weight: 300; }
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/login-background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2em;
+  max-height: 100vh; }
+
+.column1-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 33%;
+  height: 100%;
+  padding-right: 1.5em;
+  overflow: hidden; }
+
+.timeline {
+  width: 33%; }
+
+.timeline-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1em; }
+
+.open-closed-chart {
+  height: 33vh; }
+
+.status-table-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
+.status-table {
+  background-color: aliceblue;
+  border-radius: 1em;
+  padding: 1em; }
+
+th {
+  padding: 0.5em; }
+
+td {
+  padding-right: 0.5em;
+  padding-bottom: 0.5em; }
+
+.pie-chart {
+  min-height: 40vh;
+  max-height: 40vh; }
+
+.login-form {
+  width: 35%; }
+
+.login-slug {
+  width: 75%;
+  padding: 1em;
+  border-radius: 1em;
+  border: 0;
+  margin: 0.3em; }
+
+.login-btn {
+  width: 15%;
+  padding: 1em;
+  border-radius: 1em;
+  border: 0;
+  margin: 0.3em;
+  background-color: #9de3be; }
+
+.loading-screen {
+  margin-top: 40vh;
+  margin-left: 20vh; }
+
+.timeline-item {
+  background-color: aliceblue;
+  border-radius: 1em;
+  padding: 1em; }
+
+.timeline-user-photo {
+  width: 3em; }
+  .timeline-user-photo img {
+    width: 100%; }
+
+.timeline-text {
+  width: 90%; }
+
+.timeline-date {
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
+
+.data-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(#fafafa), color-stop(#5f3869), color-stop(#704468), color-stop(#589e82), color-stop(#71d493), to(white));
+  background-image: linear-gradient(to right, white, #fafafa, #5f3869, #704468, #589e82, #71d493, white);
+  background-size: 600%;
+  background-position: 0 0;
+  height: 100vh;
+  /* Animation */
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-name: gradients;
+          animation-name: gradients; }
+
+@-webkit-keyframes gradients {
+  0% {
+    background-position: 0 0; }
+  25% {
+    background-position: 50% 0; }
+  50% {
+    background-position: 90% 0; }
+  60% {
+    background-position: 60%; }
+  75% {
+    background-position: 40%; }
+  100% {
+    background-position: 0 0; } }
+
+@keyframes gradients {
+  0% {
+    background-position: 0 0; }
+  25% {
+    background-position: 50% 0; }
+  50% {
+    background-position: 90% 0; }
+  60% {
+    background-position: 60%; }
+  75% {
+    background-position: 40%; }
+  100% {
+    background-position: 0 0; } }
+.login-btn:hover {
+  background-color: aliceblue;
+  cursor: pointer; }
+
+.hidden {
+  display: none; }
+
+.center {
+  text-align: center; }
+
+.flex-photo-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5em; }
+
+.padding-photo {
+  padding-right: 0.5em; }
+
+/*# sourceMappingURL=index.css.map */
