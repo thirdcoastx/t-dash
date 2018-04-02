@@ -27,11 +27,11 @@ function userCall() {
       showAvatarImage(data);
 
     } else {
-      console.log("La respuesta del servidor ha devuelto un error");
+      console.log("The server returned an error.");
     }
   };
   userRequest.onerror = function() {
-    console.log("Error al tratar de conectarse con el servidor");
+    console.log("Error when trying to connect to server.");
   };
 
   userRequest.send();
@@ -49,12 +49,12 @@ function projectsCall() {
         printProject(dataProject[i]);
       }
     } else {
-      console.log("La respuesta del servidor ha devuelto un error");
+      console.log("The server returned an error.");
     }
   };
 
   projectsRequest.onerror = function() {
-    console.log("Error al tratar de conectarse con el servidor");
+    console.log("Error when trying to connect to server");
   };
 
   projectsRequest.send();

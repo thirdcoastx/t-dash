@@ -19,6 +19,8 @@ function onKeyPress(event) {
 }
 
 //new code
+// Just simply doing split function to grab whatever comes after projectSlug=
+
 //var url_string = window.location.href;
 //var url = new URL(url_string);
 //var inputProject = url.searchParams.get("projectSlug");

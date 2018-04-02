@@ -39,13 +39,13 @@ function login() {
         loginErrorText.style.color = '#ffffff';
         loginErrorText.style.fontSize = '1.2em';
       } else {
-        console.log("La respuesta del servidor ha devuelto un error");
+        console.log("The server returned an error");
       }
     }
   };
 
   request.onerror = function() {
-    console.log("Error al tratar de conectarse con el servidor");
+    console.log("Error when connecting to the server");
   };
 
   var userInfo = getUserAccountInfo();
