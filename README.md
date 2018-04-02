@@ -8,7 +8,8 @@ Requirements:
 - The integration will require the user to login in order to obtain the information concerning his or her projects
 
 
-NOTE:  This is currently pointed to localhost:8000 API.  You'll need to update the URL's to call taiga.io API or your on-prem API. 
+NOTE:  This is currently pointed to localhost:8000 for the API and localhost:9001 for the TAIGA App Server.  You'll need to update the URL's to call taiga.io API or your on-prem API. 
 
 To Do:
   -- Make API URL a Parameter from Ansible/Docker
+  -- Make TAIGA API URL a Parameter from Ansisble/Docker
